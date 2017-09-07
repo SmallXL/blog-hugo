@@ -1,7 +1,7 @@
-baseURL = "http://SmallXL.github.io/"
+baseURL = "http://XLXing.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "SmallXL"
+title = "XLXing"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "hugo-theme-even"
@@ -13,7 +13,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # require                       # 必需
-  name = "SmallXL"
+  name = "XLXing"
 
 [sitemap]                 # require                       # 必需
   changefreq = "weekly"
@@ -70,9 +70,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   google_verification = ""  # Google_Verification         # 谷歌
 
   [params.reward]                                         # 文章打赏
-    enable = false
-    wechat = ""           # 微信二维码
-    alipay = ""           # 支付宝二维码
+    enable = true
+    wechat = "/img/reward/wechat.jpg"           # 微信二维码
+    alipay = "/img/reward/alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "xianglixingff@126.com"
@@ -81,7 +81,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     #d-facebook = ""
     #e-linkedin = ""
     #f-google = ""
-    g-github = "https://github.com/SmallXL"
+    g-github = "https://github.com/XLXing"
     #h-weibo = "http://localhost:1313"
     #i-zhihu = "http://localhost:1313"
     #j-douban = "http://localhost:1313"
